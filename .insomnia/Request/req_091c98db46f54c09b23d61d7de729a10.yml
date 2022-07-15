@@ -1,0 +1,30 @@
+_id: req_091c98db46f54c09b23d61d7de729a10
+type: Request
+parentId: wrk_885cae9309e940f895fd182eb9b64f72
+modified: 1657849507592
+created: 1657849124436
+url: "{{baseURI}}user/login"
+name: User Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"jeff@shepptech.com",
+    	"password":"Pass123#"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2f697ab28d68453c8546f9f7d84dfa50
+authentication: {}
+metaSortKey: -1657849124436
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_4ec9038a6150407db2e60fe2ac40cb43
+type: Request
+parentId: wrk_885cae9309e940f895fd182eb9b64f72
+modified: 1657849505706
+created: 1650437001957
+url: "{{baseURI}}user/register"
+name: User Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Jeff",
+    	"email": "jeff@shepptech.com",
+    	"password": "Pass123#"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c6ca827d4acb4acb81298a5de010ee38
+authentication: {}
+metaSortKey: -1650437001957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
