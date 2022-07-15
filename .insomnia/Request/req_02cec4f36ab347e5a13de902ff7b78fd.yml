@@ -1,0 +1,34 @@
+_id: req_02cec4f36ab347e5a13de902ff7b78fd
+type: Request
+parentId: fld_c4ac612e618b4a9c93857e68be4fad52
+modified: 1657851595837
+created: 1657850080912
+url: "{{baseURI}}{{pet}}create"
+name: Pet Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Opie",
+    	"species":"Dog",
+    	"breed":"German Shepherd",
+    	"gender":"Male",
+    	"birthDate":"2022-07-07",
+    	"homingDate":"2022-08-02"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6fea7d595b3e4527b09d109975ea6d7c
+authentication: {}
+metaSortKey: -1657850080912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

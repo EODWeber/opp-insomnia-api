@@ -1,9 +1,9 @@
 _id: req_6790c13a507340cda4c2f5e5ecbef09c
 type: Request
-parentId: wrk_885cae9309e940f895fd182eb9b64f72
-modified: 1657849973324
+parentId: fld_718c76657ceb450c8f7c884ca430c6f4
+modified: 1657851590610
 created: 1657849918688
-url: "{{baseURI}}user/1"
+url: "{{baseURI}}{{user}}1"
 name: User Get User (by id)
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1657849918688
+metaSortKey: -1657849974616
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

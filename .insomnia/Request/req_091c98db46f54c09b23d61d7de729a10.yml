@@ -1,9 +1,9 @@
 _id: req_091c98db46f54c09b23d61d7de729a10
 type: Request
-parentId: wrk_885cae9309e940f895fd182eb9b64f72
-modified: 1657849743746
+parentId: fld_718c76657ceb450c8f7c884ca430c6f4
+modified: 1657851593245
 created: 1657849124436
-url: "{{baseURI}}user/login"
+url: "{{baseURI}}{{user}}login"
 name: User Login
 description: ""
 method: POST
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_2f697ab28d68453c8546f9f7d84dfa50
 authentication: {}
-metaSortKey: -1657849124436
+metaSortKey: -1657849974666
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

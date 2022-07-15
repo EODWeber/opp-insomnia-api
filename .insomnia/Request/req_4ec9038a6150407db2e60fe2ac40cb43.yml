@@ -1,9 +1,9 @@
 _id: req_4ec9038a6150407db2e60fe2ac40cb43
 type: Request
-parentId: wrk_885cae9309e940f895fd182eb9b64f72
-modified: 1657849505706
+parentId: fld_718c76657ceb450c8f7c884ca430c6f4
+modified: 1657851593756
 created: 1650437001957
-url: "{{baseURI}}user/register"
+url: "{{baseURI}}{{user}}register"
 name: User Register
 description: ""
 method: POST
@@ -21,7 +21,7 @@ headers:
     value: application/json
     id: pair_c6ca827d4acb4acb81298a5de010ee38
 authentication: {}
-metaSortKey: -1650437001957
+metaSortKey: -1657849974716
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
