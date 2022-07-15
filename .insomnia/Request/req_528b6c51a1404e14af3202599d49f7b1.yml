@@ -1,0 +1,21 @@
+_id: req_528b6c51a1404e14af3202599d49f7b1
+type: Request
+parentId: wrk_885cae9309e940f895fd182eb9b64f72
+modified: 1657849874331
+created: 1657849847220
+url: "{{baseURI}}user/user"
+name: User Get User (jwt)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657849847220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
